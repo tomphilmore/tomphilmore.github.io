@@ -1,0 +1,61 @@
+@font-face {
+	/*Need to add support for iPhone and IE/Edge*/
+	font-family: "TeX Gyre Adventor";
+	src: url(assets/TeX Gyre Adventor.otf);
+}
+
+html {
+	/*overflow-y: hidden;
+	overflow-x: hidden;*/
+}
+
+body {
+	font-family: TeX Gyre Adventor;
+	font-size: 12pt;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	display: inline;
+	text-align: centre;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.topBox {
+	display: block;
+	color: white;
+	background-color: black;
+	text-align: left;
+}
+
+.middleBox {
+	display: block;
+}
+
+.centerImg {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.bottomBox {
+	
+}
