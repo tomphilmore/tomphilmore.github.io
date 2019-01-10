@@ -1,8 +1,4 @@
 
-window.onload = function() {
-	init();
-}
-
-function init() {
+$(document).ready(function () {
 	console.log('init fired');
-}
+});
